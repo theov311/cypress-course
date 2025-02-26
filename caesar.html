@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiffrement de César</title>
+    <link rel="stylesheet" href="caesar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chiffrement de César</h1>
+        <form id="caesar-form">
+            <label for="input-text">Texte :</label>
+            <input type="text" id="input-text" required>
+            
+            <label for="shift">Décalage :</label>
+            <input type="number" id="shift" min="1" max="25" required>
+            
+            <button type="submit">Chiffrer</button>
+        </form>
+        
+        <h2>Résultat :</h2>
+        <p id="result"></p>
+    </div>
+    <script src="caesar.js"></script>
+</body>
+</html>
