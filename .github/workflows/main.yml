@@ -13,3 +13,4 @@ jobs:
         with:
           browser: chrome
           headed: true
+          spec: "cypress/e2e/examples/2-advanced-examples/**/*.cy.js"
